@@ -1,0 +1,10 @@
+# gitignore file for UT_AutoReport
+
+# MS Office cache
+~$*.*
+
+# Windows file system cache
+Thumbs.db
+
+# Python cache
+__pycache__

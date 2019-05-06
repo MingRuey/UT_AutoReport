@@ -1,0 +1,27 @@
+title: "Subject Title"
+info: |
+    Some description about this subject
+    description can have multiple lines
+    this should be exactly what you see on pptx except word-wrap
+
+# one can write multiple sections for a subject
+sections:
+  # an section can be pure text with/without picture]
+  - section name:
+      - text: >
+            this is a pure text example,
+            with a long foo bar foo bar foo bar foo bar foo bar foo bar foo bar sequence
+  - section name:
+      - text: >
+            before introducing the picture,
+            we may want to describe some general meta information
+      - picture:
+          name: "picture with text"
+          path: "/mnt/server/_Ray/UTutils/UT_AutoReport/template/demo1.png"
+          description: "some demo picture"
+  # or a pure picture with description
+  - section2 name:
+      - picture:
+          name: "pure picture"
+          path: "/mnt/server/_Ray/UTutils/UT_AutoReport/template/demo2.png"
+          description: "some other demo picture"

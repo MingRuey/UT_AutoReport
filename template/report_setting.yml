@@ -1,0 +1,10 @@
+format: "WeeklyReport"
+author: ray_chou@utechzone.com.tw
+# if date is empty, current system date will be used
+date: "2018-05-01"
+
+# subjects can have AT MOST 3 items
+subjects:
+  - "subject_example.yml"
+  - "subject_example.yml"
+  - "subject_example.yml"
